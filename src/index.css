@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 body{
     background: linear-gradient(162deg, rgba(225,204,230,1) 21%, rgba(148,227,223,1) 47%, rgba(198,205,172,1) 71%);
