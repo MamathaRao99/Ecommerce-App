@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(162deg, rgba(225,204,230,1) 21%, rgba(148,227,223,1) 47%, rgba(198,205,172,1) 71%);
+    background-repeat: no-repeat;
+}

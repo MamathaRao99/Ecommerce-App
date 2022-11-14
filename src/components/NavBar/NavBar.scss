@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .navLinks {
+        padding: 10px;
+        display: flex;
+        margin-right: 20px;
+
+        .navLink {
+            display: flex;
+            margin-right: 30px;
+            justify-content: space-between;
+            text-decoration: none;
+            color: black;
+        }
+
+        .cartcount {
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+}

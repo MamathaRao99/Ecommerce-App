@@ -1,0 +1,40 @@
+.cartWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cartWrapper .cartCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.cartWrapper .cartCard img {
+  height: 80px;
+}
+.cartWrapper .btn {
+  border: none;
+  outline: none;
+  background: #764abc;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 25px;
+  transition: all 0.3s ease-in-out;
+}
+.cartWrapper .btn:hover {
+  background-color: #af74e9;
+}
+
+.cartCard {
+  display: flex;
+  background: white;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+}/*# sourceMappingURL=cart.css.map */
